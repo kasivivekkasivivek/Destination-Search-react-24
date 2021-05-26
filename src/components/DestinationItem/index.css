@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.destination-item {
+  width: 100%;
+  cursor: pointer;
+}
+.destination-image {
+  width: 90%;
+}
+@media screen and (min-width: 768px) {
+  .destination-item {
+    width: 40%;
+  }
+  .destination-image {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .destination-item {
+    width: 30%;
+  }
+  .destination-image {
+    width: 90%;
+  }
+}
+
+.destination-name {
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+@media screen and (min-width: 768px) {
+  .destination-name {
+    font-size: 18px;
+  }
+}
